@@ -116,10 +116,10 @@ public class collabWork {
             } while (chosenOperation < 1 || chosenOperation > 7);
 
             if (chosenOperation == 1) {
-
+                System.out.println("Minimum value is " + getMinimum(array));
             }
             else if (chosenOperation == 2) {
-
+                System.out.println("Maximum value is " + getMaximum(array));
             }
             else if (chosenOperation == 3) {
 
