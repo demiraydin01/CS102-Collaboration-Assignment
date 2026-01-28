@@ -3,7 +3,7 @@ import java.util.Random;
 public class collabWork {
     
     // returns a random array with the values [0,100] for a given length
-    public int[] createArray(int size){
+    public static int[] createArray(int size){
         int[] result = new int[size];
         Random rand = new Random();
         for(int i = 0; i < size; i++){
@@ -45,7 +45,6 @@ public class collabWork {
     }
     
     public static void main(String[] args) {
-
         
     }
 }
