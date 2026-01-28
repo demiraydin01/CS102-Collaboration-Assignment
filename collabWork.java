@@ -53,7 +53,7 @@ public class collabWork {
     //Searches and finds the elements which are in even-numbered spaces
      public static int sumOfEvens(int[] arr){
         int sumOfEvens = 0;
-        for(int i: arr){
+        for(int i=0; i<arr.length; i++){
             if(i%2==0){
                 sumOfEvens+=arr[i];
             }
@@ -64,7 +64,7 @@ public class collabWork {
     //Searches and finds the elements which are in odd-numbered spaces
     public static int sumOfOdds(int[] arr){
         int sumOfOdds = 0;
-        for(int i: arr){
+        for(int i=0; i<arr.length; i++){
             if(i%2!=0){
                 sumOfOdds+=arr[i];
             }
