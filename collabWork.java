@@ -132,6 +132,7 @@ public class collabWork {
                 for(int i = 0; i < arrdiff.length; i++){
                     System.out.print(arrdiff[i] + " ");
                 }
+                System.out.println();
             }
             else if (chosenOperation == 5) {
                 System.out.println("Sum of the elements in odd-numbered spaces is "+ sumOfOdds(array));
