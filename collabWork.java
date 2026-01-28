@@ -11,6 +11,27 @@ public class collabWork {
         }
         return diffarr;
     }
+
+    public static int getMinimum (int[] arr){
+        int min = arr[0];
+        for(int element: arr){
+            if(element<min){
+                min = element;
+            }
+        }
+        return min;
+    }
+    
+    public static int getMaximum(int[] arr){
+        int max = arr[0];
+        for(int element: arr){
+            if(element>max){
+                max = element;
+            }
+        }
+        return max;
+    }
+    
     public static void main(String[] args) {
 
         
