@@ -134,10 +134,10 @@ public class collabWork {
                 }
             }
             else if (chosenOperation == 5) {
-                System.out.println("Sum of the elements in odd-numbered spaces is"+ sumOfOdds(array));
+                System.out.println("Sum of the elements in odd-numbered spaces is "+ sumOfOdds(array));
             }
             else if (chosenOperation == 6) {
-                System.out.println("Sum of the elements in even-numbered spaces is"+ sumOfEvens(array));    
+                System.out.println("Sum of the elements in even-numbered spaces is "+ sumOfEvens(array));    
             }
             else if (chosenOperation == 7) {
                 System.out.println("Quitting...");
