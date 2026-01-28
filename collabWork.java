@@ -12,17 +12,22 @@ public class collabWork {
         }
         return result;
     }
-    public static int[] computeaverage(int[] arr){
-        int sum = 0;
-        for(int i = 0; i<arr.length; i++){
-            sum += arr[i];
-        }
-        int average = sum / arr.length;
+    public static int[] computeaveragediff(int[] arr){
+
+        int average = computeAverage(arr);
         int[] diffarr = new int[arr.length];
         for(int i = 0; i<arr.length; i++){
             diffarr[i] = arr[i] - average;
         }
         return diffarr;
+    }
+    public static int computeAverage(int[] arr){
+        int sum = 0;
+        for(int i = 0; i<arr.length; i++){
+            sum += arr[i];
+        }
+        int average = sum / arr.length;
+        return average;
     }
 
     public static int getMinimum (int[] arr){
