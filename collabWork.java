@@ -62,7 +62,9 @@ public class collabWork {
             arraySize = in.nextInt();
             in.nextLine();
         } while (arraySize < 0);
-        //****** createArray(arraySize); 
+
+        //Create the array where the operations will be done
+        int [] array = createArray(arraySize); 
 
         //Prompt the user again and again until the user quits
         do {
