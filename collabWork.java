@@ -49,6 +49,28 @@ public class collabWork {
         }
         return max;
     }
+     
+    //Searches and finds the elements which are in even-numbered spaces
+     public static int sumOfEvens(int[] arr){
+        int sumOfEvens = 0;
+        for(int i: arr){
+            if(i%2==0){
+                sumOfEvens+=arr[i];
+            }
+        }
+        return sumOfEvens;
+    }
+    
+    //Searches and finds the elements which are in odd-numbered spaces
+    public static int sumOfOdds(int[] arr){
+        int sumOfOdds = 0;
+        for(int i: arr){
+            if(i%2!=0){
+                sumOfOdds+=arr[i];
+            }
+        }
+        return sumOfOdds;
+    }
     
     public static void main(String[] args) {
         
@@ -106,10 +128,10 @@ public class collabWork {
 
             }
             else if (chosenOperation == 5) {
-
+                System.out.println("Sum of the elements in odd-numbered spaces is"+ sumOfOdds(null));
             }
             else if (chosenOperation == 6) {
-
+                System.out.println("Sum of the elements in even-numbered spaces is"+ sumOfEvens(null));    
             }
             else if (chosenOperation == 7) {
                 System.out.println("Quitting...");
