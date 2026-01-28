@@ -122,10 +122,14 @@ public class collabWork {
                 System.out.println("Maximum value is " + getMaximum(array));
             }
             else if (chosenOperation == 3) {
-
+                System.out.println("Average of the array is " + computeAverage(array));
             }
             else if (chosenOperation == 4) {
-
+                System.out.print("Differences each element of the array from the average is ");
+                int[] arrdiff = computeaveragediff(array);
+                for(int i = 0; i < arrdiff.length; i++){
+                    System.out.print(arrdiff[i] + " ");
+                }
             }
             else if (chosenOperation == 5) {
                 System.out.println("Sum of the elements in odd-numbered spaces is"+ sumOfOdds(array));
