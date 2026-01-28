@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -96,6 +97,7 @@ public class collabWork {
         //Prompt the user again and again until the user quits
         do {
             //Inform the user
+            System.out.println("\nArray: " + Arrays.toString(array));
             System.out.println("\n---------Operations---------");
             System.out.println("1. Find the array's minimum value");
             System.out.println("2. Find the array's maximum value");
